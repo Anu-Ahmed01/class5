@@ -1,0 +1,705 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  
+}
+#startingdiv{
+    width: 30%;
+    height: 70px;
+    background-color: rgb(238, 237, 237);
+    float: left;
+    padding-top: 20px;
+}
+#startingdiv a{
+  text-decoration: none;
+  color: rgb(53, 52, 51);
+  margin-left: 70px;
+  
+  
+  }
+
+
+#startingdiv1 img{
+  margin-left: 150px;
+}
+
+
+
+
+#startingdiv1{
+    width: 40%;
+    height: 70px;
+    float: left;
+    background-color: rgb(238, 237, 237);
+    padding-top: 15px;
+}
+
+
+
+#startingdiv2{
+    width: 30%;
+    height: 70px;
+    float: left;
+    background-color: rgb(238, 237, 237);
+    padding-top: 20px;
+}
+#startingdiv2 a{
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    
+}
+#startingdiv2 select{
+   margin-left: 50px;   
+}
+
+#startingdiv2 button{
+    margin-left: 50px;
+    height: 30px;
+    width: 100px;    
+ }
+
+
+ #menudiv{
+    height:80px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    float: left;
+    flex-wrap:wrap;
+    display: flex;
+    top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+
+
+ #menudiv ul{
+    list-style: none;
+   
+   
+ }
+
+
+ #menudiv ul li{
+   margin-left:50px;
+    float: left;
+    margin-top: 20px;
+    
+
+ }
+
+ #menudiv ul li a{
+
+    text-decoration: none;
+    color: black;
+   
+ }
+
+ #homepicture{
+    width: 100%;
+ }
+ #homepicture{
+    float: left;
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/Women_s-collection-web-banner.webp);
+    background-size: cover;
+ }
+
+ #collection1{
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin: 32px;
+    background-image: url(./img/depositphotos_102701288-stock-photo-happy-woman-holding-shoes-over.jpg);
+    background-size: cover;
+ }
+ #collection2{
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin: 32px;
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+ }
+
+ #collection3{
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin: 30px;
+    background-image: url(./img/3.jpg);
+    background-size: cover;
+ }
+
+
+ #collection4{
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin: 30px;
+    background-image: url(./img/4.jpg);
+    background-size: cover;
+ }
+
+
+ #voucher{
+    float: left;
+    width: 94%;
+    height: 300px;
+    margin: 30px;
+    background-image: url(./img/voucher.webp);
+    background-size: cover;
+    
+ }
+
+ #text {
+    margin: 30px;
+    width: 90%;
+    height: 60px;
+    float: left;
+    margin-top: 0px;
+ }
+ #menu2 {
+    
+    width: 93%;
+    height: 60px;
+    float: left;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    
+ }
+ #menu2 button{
+   
+   border-radius:15px;
+   height: 30px;
+   width: 100px;
+   border: none;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+ }
+
+ #menu2 button a{
+   
+    color: black;
+    text-decoration: none;
+
+   
+  }
+
+  #Casulas{
+    width: 16%;
+    margin: 30px;
+    height: 380px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #Casulas img{
+    width: 80%;
+    margin: 18px;
+  }
+
+  #Casulas p{
+   margin-top: 14px;
+   line-height: 1.5;
+ }
+
+  #Casulas2{
+    width: 16%;
+    margin: 30px;
+    height: 380px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+
+  #Casulas2 p{
+   margin-top: 40px;
+   line-height: 1.5;
+ }
+
+  #Casulas2 img{
+    width: 80%;
+    margin: 18px;
+  }
+
+
+  #Casulas3{
+    width: 15%;
+    margin: 30px;
+    height: 380px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #Casulas3 img{
+   width: 80%;
+   margin: 18px;
+ }
+
+ #Casulas3 p{
+   margin-top: 16px;
+   line-height: 1.5;
+ }
+
+  #Casulas4{
+    width: 15%;
+    margin: 30px;
+    height: 380px;;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+
+  #Casulas4 img{
+   width: 80%;
+   margin: 18px;
+ }
+ #Casulas4 p{
+   margin-top: 16px;
+   line-height: 1.5;
+ }
+
+
+  #Casulas5{
+    width: 15%;
+    margin: 30px;
+    height: 380px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+ 
+
+  #Casulas5 img{
+   width: 80%;
+   margin: 18px;
+ }
+
+ #Casulas5 p{
+   margin-top: 60px;
+   line-height: 1.5;
+ }
+
+ #text2{
+   width: 95%;
+   margin-left:45px;
+   background-color: rgb(255, 255, 255);
+   float: left;
+   text-align: left;
+   color: rgb(170, 160, 160);
+ }
+ 
+
+
+ #stand_out{
+   
+   margin:15px;
+   width: 29%;
+   height: 400px;
+   background-color: aqua;
+   float: left;
+   margin-left: 50px;
+   background-image: url(./img/stand.webp);
+   background-size: cover;
+  
+ }
+
+ #stans_{
+
+  
+  
+   width: 80%;
+   height: 200px;
+   background-color: rgb(255, 255, 255);
+   float: left;
+   margin-left: 35px;
+   margin-top: 370px;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+   
+ }
+
+ #stans_ button{
+   height:40px;
+   width: 150px;
+   background-color: aliceblue;
+   border: none;
+ }
+
+ #stans_ a{
+   text-decoration: none;
+   color: rgb(65, 63, 63);
+   font-size: 18px;
+   
+ }
+
+
+
+
+ #stand_out2{
+   margin:15px;
+   width: 30%;
+   height: 400px;
+   background-color: rgb(255, 255, 255);
+   float: left;
+   background-image: url(./img/stand1.webp);
+   background-size: cover;
+  
+ }
+
+ #stans__{
+   width: 80%;
+   height: 200px;
+   background-color: rgb(255, 255, 255);
+   float: left;
+   margin-left: 35px;
+   margin-top: 370px;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+ }
+
+ #stans__ a{
+   text-decoration: none;
+   color: rgb(65, 63, 63);
+   font-size: 18px;
+ }
+
+
+ #stans_ h3{
+   color: rgb(117, 108, 108);
+   margin-top: 15px;
+ }
+
+ #stans_ p{
+   color: rgb(117, 108, 108);
+   line-height: 1.5;
+ }
+
+
+ #stans__ button{
+   height:40px;
+   width: 150px;
+   background-color: aliceblue;
+   border: none;
+ }
+
+ #stans__ h3{
+   color: rgb(117, 108, 108);
+   margin-top: 15px;
+ }
+
+ #stans__ p{
+   color: rgb(117, 108, 108);
+   line-height: 1.5;
+ }
+
+ 
+ #stand_out3{   
+   margin:15px;
+   width: 30%;
+   height: 400px;
+   background-color: rgb(255, 255, 255);
+   float: left;
+   background-image: url(./img/stand2.webp);
+   background-size: cover;
+   text-align: center;
+ }
+
+
+ #stans___{
+   width: 80%;
+   height: 200px;
+   background-color: rgb(255, 255, 255);
+   float: left;
+   margin-left: 35px;
+   margin-top: 370px;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+ }
+
+ #stans___ p{
+   color: rgb(117, 108, 108);
+   line-height: 1.5;
+ }
+
+ #stans___ h3{
+   color: rgb(117, 108, 108);
+   margin-top: 15px;
+ }
+
+ #stans___ button{
+   height:40px;
+   width: 150px;
+   background-color: aliceblue;
+   border: none;
+ }
+ #stans___ a{
+   text-decoration: none;
+   color: rgb(65, 63, 63);
+   font-size: 18px;
+ }
+ 
+
+
+
+
+ #stans_{
+
+  
+  
+  width: 80%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 370px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  
+}
+
+#text3{
+  width: 95%;
+  margin-left:45px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  text-align: left;
+  margin-top: 180px;
+  color: rgb(136, 141, 145);
+}
+
+
+#PICKED{
+
+  width: 30%;
+  height: 370px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-align: center;
+ 
+  background-image: url(https://www.batabd.com/cdn/shop/files/Accessories-web-banner-square2_800x800_crop_center.jpg?v=1660816004);
+  background-size: cover;
+}
+
+
+#PICKED_child{
+  width: 80%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 350px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+#PICKED_child p{
+  color: rgb(117, 108, 108);
+  line-height: 1.5;
+}
+
+#PICKED_child h3{
+  color: rgb(117, 108, 108);
+  margin-top: 15px;
+}
+
+#PICKED_child button{
+  height:40px;
+  width: 150px;
+  background-color: aliceblue;
+  border: none;
+}
+#PICKED_child a{
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+  font-size: 18px;
+}
+
+
+
+#PICKED2{
+
+  width: 30%;
+  height: 370px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-align: center;
+
+  background-image: url(https://www.batabd.com/cdn/shop/files/men_s-formal-new_800x800_crop_center.jpg?v=1665545247);
+  background-size: cover;
+}
+
+
+#PICKED2_child{
+  width: 80%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 350px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+#PICKED2_child p{
+  color: rgb(117, 108, 108);
+  line-height: 1.5;
+}
+
+#PICKED2_child h3{
+  color: rgb(117, 108, 108);
+  margin-top: 15px;
+}
+
+#PICKED2_child button{
+  height:40px;
+  width: 150px;
+  background-color: aliceblue;
+  border: none;
+}
+#PICKED2_child a{
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+  font-size: 18px;
+}
+
+#PICKED3{
+
+  width: 30%;
+  height: 370px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-align: center;
+  
+  background-image: url(https://www.batabd.com/cdn/shop/files/ladies-bag-new_800x800_crop_center.jpg?v=1665545273);
+  background-size: cover;  
+}
+
+
+#PICKED3_child{
+  width: 80%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 35px;
+  margin-top: 350px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+#PICKED3_child p{
+  color: rgb(117, 108, 108);
+  line-height: 1.5;
+}
+
+#PICKED3_child h3{
+  color: rgb(117, 108, 108);
+  margin-top: 15px;
+}
+
+#PICKED3_child button{
+  height:40px;
+  width: 150px;
+  background-color: aliceblue;
+  border: none;
+}
+#PICKED3_child a{
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+  font-size: 18px;
+}
+
+
+
+
+
+
+ #About_section{
+
+   height: 270px;
+   width: 100%;
+   background-color: rgb(68, 64, 64);
+   float: left;
+   margin-top: 200px;
+   color: aliceblue;
+ }
+ #About{
+
+   height: 230px;
+   width: 20%;
+   background-color: rgb(68, 64, 64);
+   float: left;
+   margin: 32px;
+   
+ }
+
+ #About ul{
+   list-style: none;
+   line-height: 1.5;
+   font-size: 17px;
+ }
+ #Information{
+
+   height: 230px;
+   width: 20%;
+   background-color: rgb(68, 64, 64);
+   float: left;
+   margin: 32px;
+   
+ }
+
+ #Information ul{
+   list-style: none;
+   line-height: 1.5;
+   font-size: 17px;
+ }
+
+ #popular{
+
+   height: 230px;
+   width: 20%;
+   background-color: rgb(68, 64, 64);
+   float: left;
+   margin: 32px;
+   
+ }
+ #popular ul{
+   list-style: none;
+   line-height: 1.5;
+   font-size: 17px;
+ }
+
+ #customer{
+
+   height: 230px;
+   width: 20%;
+   background-color: rgb(68, 64, 64);
+   float: left;
+   margin: 32px;
+   
+ }
+ #customer ul{
+   list-style: none;
+   line-height: 1.5;
+   font-size: 17px;
+ }
